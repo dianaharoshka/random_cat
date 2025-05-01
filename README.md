@@ -17,7 +17,7 @@ A simple and visually appealing web project that fetches and displays a random c
 
 ## 🚀 Live Demo
 
-You can view the live version [https://meowfetch.netlify.app/](#) 
+You can view the live version [https://meowfetch.netlify.app/] 
 
 ## 📸 Preview
 ![Skärmbild 2025-05-01 145001](https://github.com/user-attachments/assets/4a652303-acb6-4565-a4c2-93063f873fec)
