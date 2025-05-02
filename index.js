@@ -13,8 +13,8 @@ async function fetchCat() {
 
     catImage.onload = () => {
       catImage.style.display = "block";
-      catImage.classList.remove("fade-in"); // Удаляем, если была раньше
-      void catImage.offsetWidth; // Перезапуск анимации
+      catImage.classList.remove("fade-in");
+      void catImage.offsetWidth;
       catImage.classList.add("fade-in");
 
       newCatBtn.disabled = false;
@@ -29,5 +29,4 @@ async function fetchCat() {
 
 newCatBtn.addEventListener("click", fetchCat);
 
-// Load the first cat on page load
 fetchCat();
